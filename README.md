@@ -1,8 +1,8 @@
 # growshrink.js
 
 Growshrink.js is a jQuery Plugin for scaling divs from zero size to the same size as the
-parent and back again.  I used similar code on [https://sequoiaheritage.com/ this site]
-because I found the jQuery UI wouldn't do what I wanted - especially when using size/scale
+parent and back again.  I used similar code on [this site](https://sequoiaheritage.com/) because I found the
+jQuery UI wasn't satisfactory for what I wanted to do - especially when using size/scale
 from the bottom right to top left or bottom left to top right.
 
 You can see a live demo of this plugin here -> http://greglane.me/demos/growshrink/
@@ -30,7 +30,7 @@ options are topleft, topright, bottomleft, bottomright
 This is the direction in which the animation is heading and it always begins from the
 opposite corner.  So a 'grow' with direction set as 'topleft' will begin in the bottom
 right corner.  Likewise, a 'shrink' with direction set to 'bottomright' will begin in
-the top right corner.
+the top left corner.
 
 ###growspeed: 1000
 
